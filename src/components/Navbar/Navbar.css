@@ -1,0 +1,37 @@
+.navbar{
+    height:50px;
+    background: linear-gradient(to right, #003580, #005691, #0074cc, #0098ff, #0074cc, #005691, #003580);
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width:100%;
+    max-width: 1024px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+}
+
+.navButton{
+    margin-left: 20px;
+    border:none;
+    padding: 5px 10px;
+    cursor:pointer;
+    color: #003580;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
